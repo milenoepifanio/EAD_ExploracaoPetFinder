@@ -40,12 +40,11 @@ Para reproduzir esta análise em sua máquina local, siga os passos abaixo:
    ```bash
    cd EAD_ExploracaoPetFinder```
 3. Crie um ambiente virtual e ative-o:
-```bash
+    ```bash
     python -m venv venv
     source venv/bin/activate```  # No Windows: venv\Scripts\activate
-
 4. Instale as dependências:
-```bash
+    ```bash
     pip install -r requirements.txt```
 
 ## Project Structure
