@@ -35,28 +35,27 @@ Para reproduzir esta análise em sua máquina local, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/milenoepifanio/EAD_ExploracaoPetFinder.git```
+   git clone https://github.com/milenoepifanio/EAD_ExploracaoPetFinder.git
 2. Navegue até o diretório do projeto:
    ```bash
-   cd EAD_ExploracaoPetFinder```
+   cd EAD_ExploracaoPetFinder
 3. Crie um ambiente virtual e ative-o:
     ```bash
     python -m venv venv
-    source venv/bin/activate```  # No Windows: venv\Scripts\activate
+    source venv/bin/activate  # No Windows: venv\Scripts\activate
 4. Instale as dependências:
     ```bash
-    pip install -r requirements.txt```
+    pip install -r requirements.txt
 
 ## Project Structure
-
 ```plaintext
 EAD_ExploracaoPetFinder/
 │
 ├── Análise Exploratória/
 │   └── AED - PetFinder.ipynb  # Jupyter notebook contendo a análise exploratória
-├── data/                      # Diretório para armazenar os dados (não incluído)
-├── images/                    # Imagens usadas na análise ou README
+├── train.csv                  # Arquivo de excel em formato CSV com os dados utilizados
 └── README.md                  # Documento atual
+```
 
 ## Usage
 
@@ -65,7 +64,7 @@ Para executar a análise exploratória:
 1. Abra o notebook `AED - PetFinder.ipynb` no Jupyter Notebook ou JupyterLab:
 
    ```bash
-   jupyter notebook```
+   jupyter notebook
 2. Execute as células sequencialmente para reproduzir a análise.
 
 ## Results
