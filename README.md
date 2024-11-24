@@ -53,7 +53,7 @@ EAD_ExploracaoPetFinder/
 │
 ├── Análise Exploratória/
 │   └── AED - PetFinder.ipynb  # Jupyter notebook contendo a análise exploratória
-├── train.csv                  # Arquivo de excel em formato CSV com os dados utilizados
+    └── train.csv                  # Arquivo de excel em formato CSV com os dados utilizados
 └── README.md                  # Documento atual
 ```
 
