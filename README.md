@@ -71,11 +71,43 @@ Para executar a análise exploratória:
 
 Nesta análise, foram explorados vários aspectos dos dados do PetFinder, incluindo distribuições de características dos animais e correlações entre elas. A seguir estão alguns insights chave:
 
-- A maioria dos animais listados para adoção são cães.
-- A velocidade de adoção tende a ser mais rápida para animais mais jovens.
-- Certas raças e cores têm maior probabilidade de serem adotadas rapidamente.
+## Insights sobre o Processo de Adoção
 
-Gráficos e visualizações adicionais estão disponíveis no notebook.
+- **Idade na Adoção:**
+  - A média de idade de adoção é de **10 meses**.
+  - **50% das adoções** ocorreram no **terceiro mês** de idade.
+  - O **máximo de idade** registrado foi de **255 meses** (21 anos) no momento da adoção.
+
+- **Taxas de Adoção:**
+  - **75% das adoções** não envolveram taxas (fee).
+  - A maior taxa registrada foi de **3000** na moeda local, mas a **média das taxas** foi de **21.260**.
+
+- **Tempo de Adoção:**
+  - **100% das adoções** ocorreram em **até 4 meses** após a entrada no local.
+
+- **Dados sobre Mídias:**
+  - **75% dos animais** não têm vídeos cadastrados, mas **75% têm 5 fotos**.
+
+- **Distribuição dos Dados:**
+  - A distribuição dos dados é **não normal** e **enviesada para a direita**.
+
+- **Porte dos Animais:**
+  - A **maioria dos animais** é de **porte médio**.
+
+- **Influência do Tipo de Animal (Tipo 1 - Cachorros, Tipo 2 - Gatos):**
+  - Não há grande variação entre as variáveis **Type** e **AdoptionSpeed**.
+  - Para os **gatos (Tipo 2)**, **25% das adoções** ocorreram no **primeiro mês** de idade.
+  - Para os **cachorros (Tipo 1)**, a adoção ocorreu no **segundo mês**, indicando uma **preferência inicial** por gatos na base de dados.
+
+- **Influência do Gênero no Processo de Adoção:**
+  - Para **cachorros (Tipo 1)**, os dados não mostram variação significativa entre os gêneros.
+  - Para **gatos (Tipo 2)**, no **gênero masculino (macho)**, **75% das adoções** ocorreram em **até 3 meses**.
+  - Já nos **gêneros feminino** e **não informado**, a adoção ocorreu no **quarto mês**.
+
+- **Taxas de Adoção por Tipo de Animal:**
+  - A **maioria dos processos de adoção** possui uma taxa de **0**.
+  - No entanto, apenas **cachorros (Tipo 1)** apresentaram valores de taxa acima de **1000**.
+
 
 ## Future Steps
 
@@ -84,6 +116,7 @@ Para aprofundar a análise e refinar a compreensão dos padrões de adoção, os
 - **Remoção de Outliers**: Realizar uma nova análise exploratória após a remoção de outliers identificados nos dados. Isso pode revelar padrões de comportamento de adoção mais consistentes, que podem estar ocultos devido à presença de valores atípicos.
 - **Modelagem Preditiva**: Desenvolver modelos preditivos para estimar a velocidade de adoção com base nas características dos animais.
 - **Análise Temporal**: Explorar tendências temporais, como a variação na velocidade de adoção ao longo do tempo.
+- **Visualização de Dados**: Criação de um arquivo em Power BI, para uma análise mais aprofundada dos dados obtidos.
 
 ## Contributing
 
